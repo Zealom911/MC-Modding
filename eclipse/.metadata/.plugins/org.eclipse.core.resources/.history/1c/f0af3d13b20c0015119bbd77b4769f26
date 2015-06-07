@@ -1,0 +1,6 @@
+package com.github.zealom911.sunless.items;
+
+public class ItemSunless extends Item
+{
+	
+}

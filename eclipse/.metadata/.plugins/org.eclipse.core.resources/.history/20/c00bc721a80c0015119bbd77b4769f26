@@ -1,0 +1,19 @@
+package com.github.zealom911.sunless;
+ 
+import net.minecraft.init.Blocks;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+ 
+@Mod(modid = Sunless.MODID, version = Sunless.VERSION)
+public class Sunless
+{
+    public static final String MODID = "sunless";
+    public static final String VERSION = "a1";
+ 
+    @EventHandler
+    public void init(FMLInitializationEvent event)
+    {
+    	ModRecipes.addRecipes();
+    }
+}

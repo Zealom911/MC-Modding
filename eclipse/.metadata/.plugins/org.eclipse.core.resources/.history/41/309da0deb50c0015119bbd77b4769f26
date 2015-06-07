@@ -1,0 +1,13 @@
+package com.github.zealom911.sunless.blocks;
+
+import net.minecraft.block.Block;
+
+public class BlockSunless extends Block
+
+{
+	public BlockSunless(float hardness, float resistence, String harvestType, int harvestLevel, float lightLevel)
+	{
+		super(Material.rock);//material types here
+		this.setCreativeTab(CreativeTabs.tabBlocks);
+	}
+}

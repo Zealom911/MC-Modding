@@ -1,0 +1,15 @@
+package com.github.zealom911.sunless.init;
+
+public class ModItems 
+{
+	public static void registerItems()
+	{
+		public static Item omega = new ItemSunless().setUnlocalizedName("omega");	
+	}
+	
+	public static void registerItemRenderer()
+	{
+		
+	}
+
+}

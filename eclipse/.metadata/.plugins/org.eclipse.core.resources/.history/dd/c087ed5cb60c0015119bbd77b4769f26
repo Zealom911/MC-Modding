@@ -1,0 +1,14 @@
+package com.github.zealom911.sunless.proxies;
+
+import com.github.zealom911.sunless.init.ModBlocks;
+
+public class ClientProxy extends CommonProxy
+{
+	@Override
+	public void registerRenderers()
+	{
+		ModBlocks.registerBlockRenderer();
+		ModItems.registerItemRenderer();
+	}
+
+}

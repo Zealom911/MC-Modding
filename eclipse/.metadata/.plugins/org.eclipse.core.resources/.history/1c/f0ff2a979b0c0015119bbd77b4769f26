@@ -1,0 +1,20 @@
+package com.github.zealom911.sunless;
+
+public class ModRecipes 
+{
+	
+	public static void addRecipes()
+	{
+		GameRegistry.addRecipe(new ItemStack(Items.dye, 2, 15),
+		    	"AB ",
+		    	"AAC",
+		    	"A  ",
+		    	'A', Items.cookie, 'B', Blocks.dirt, 'C', new ItemStack(Items.dye, 1, 1)
+		    	);
+		    
+		    	GameRegistry.addShapelessRecipe(new ItemStack(Blocks.bedrock), Items.diamond, Items.lava_bucket, new ItemStack(Blocks.wool, 1, 2));
+		    
+		    	GameRegistry.addSmelting(Blocks.obsidian, new ItemStack(Items.diamond, 2), 1F);
+	}
+
+}

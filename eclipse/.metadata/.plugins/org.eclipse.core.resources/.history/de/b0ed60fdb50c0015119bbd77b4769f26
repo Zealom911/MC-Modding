@@ -1,0 +1,22 @@
+package com.github.zealom911.sunless.init;
+
+import net.minecraft.block.Block;
+
+import com.github.zealom911.sunless.help.RegisterHelper;
+
+public class ModBlocks 
+{
+	
+	public static void registerBlocks()
+	{
+		RegisterHelper.registerBlock(citrine_block);
+	}
+	
+	public static void registerBlockRenderer()
+	{
+		RegisterHelper.registerBlockRenderer(citrine_block);
+	}
+	
+	public static Block citrine_block = new BlockSunless().setUnlocalizedName("citrine_block");
+
+}

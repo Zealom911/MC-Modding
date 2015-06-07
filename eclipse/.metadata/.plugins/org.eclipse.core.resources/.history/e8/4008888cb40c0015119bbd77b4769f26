@@ -1,0 +1,19 @@
+package com.github.zealom911.sunless.init;
+
+public class ModBlocks 
+{
+	
+	public static void registerBlocks()
+	{
+		
+	}
+	
+	public static void registerBlockRenderer()
+	{
+		
+	}
+	
+	public static Block citrine_block = new
+	BlockSunless().setUnlocalizedName("citrine_block");
+
+}

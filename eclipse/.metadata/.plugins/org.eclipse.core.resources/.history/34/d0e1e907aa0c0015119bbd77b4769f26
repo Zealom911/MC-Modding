@@ -1,0 +1,9 @@
+package com.github.zealom911.sunless.help;
+
+public class Reference 
+{
+	public final String NAME = "Sunless";
+	public final String MODID = "sunless";
+	public final string VERSION = "a1";
+
+}

@@ -1,0 +1,15 @@
+package com.github.zealom911.sunless.init;
+
+public class ModItems 
+{
+	public static void registerItems()
+	{
+		
+	}
+	
+	public static void registerItemRenderer()
+	{
+		
+	}
+
+}
